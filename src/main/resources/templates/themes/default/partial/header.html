@@ -41,15 +41,25 @@
             <a href="${site_url('/links')}">友链</a>
             <a href="${site_url('/about')}">关于</a>
         </div>
-        <div class="navbar-search" onclick="">
-            <span class="icon-search"></span>
-            <form role="search" onsubmit="return false;">
+        
+        <script type="text/javascript">
+			function formSearch(){
+				var search_val = $("#search-inp").val();
+				var url = $("#formSearch").attr("action") + search_val;
+				$("#formSearch").attr("action",url);
+				document.getElementById("formSearch").submit()
+			}
+		</script>
+        
+        <div class="navbar-search">
+            <span class="icon-search" onclick="formSearch()"></span>
+            <form id="formSearch" action="${site_url('/search/')}" role="search" method="get" onsubmit="return true;">
                 <span class="search-box">
-                    <input type="text" id="search-inp" class="input" placeholder="搜索..." maxlength="30"
-                           autocomplete="off">
+                    <input type="text" id="search-inp" class="input" placeholder="搜索..." maxlength="30" autocomplete="off">
                 </span>
             </form>
         </div>
+        
         <div class="navbar-mobile-menu" onclick="">
             <span class="icon-menu cross"><span class="middle"></span></span>
             <ul>

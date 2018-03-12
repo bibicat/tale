@@ -44,22 +44,20 @@ INSERT INTO t_contents (allow_feed,allow_ping,allow_comment,comments_num,hits,
 categories,tags,fmt_type,status,type,author_id,content,modified,created,thumb_img,slug,title,cid) VALUES (
 NULL,1,1,0,0,NULL,NULL,'markdown','publish','page',1,'## 友情链接
 
-- :lock: [王爵的技术博客]()
-- :lock: [cyang.tech]()
-- :lock: [Bakumon''s Blog]()
+- :lock: [(≖ᴗ≖)✧]()
 
 ## 链接须知
 
-> 请确定贵站可以稳定运营
-> 原创博客优先，技术类博客优先，设计、视觉类博客优先
-> 经常过来访问和评论，眼熟的
+<p>请确定贵站可以稳定运营</p>
+<p>原创博客优先，技术类博客优先，设计、视觉类博客优先</p>
+<p>经常过来访问和评论，眼熟的</p>
 
 备注：默认申请友情链接均为内页（当前页面）
 
 ## 基本信息
 
-                网站名称：Tale博客
-                网站地址：https://tale.biezhi.me
+                网站名称：(✧◡✧)
+                网站地址：https://www.mrreckless.com
 
 请在当页通过评论来申请友链，其他地方不予回复
 
