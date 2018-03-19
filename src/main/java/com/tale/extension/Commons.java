@@ -24,7 +24,7 @@ public final class Commons {
 
     private static SiteService siteService;
 
-    private static final String TEMPLATES = "/templates/";
+    private static final String TEMPLATES = "https://www.ojbkk.com/templates/";
 
     public static void setSiteService(SiteService ss) {
         siteService = ss;
